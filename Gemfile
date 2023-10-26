@@ -69,4 +69,4 @@ gem "redis", "~> 4.8"
 
 gem "tailwindcss-rails", "~> 2.0"
 
-gem 'rack-timeout'
+# gem 'rack-timeout'

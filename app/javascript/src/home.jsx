@@ -41,6 +41,7 @@ class Home extends React.Component {
     fetch('/api/calls/realms/')
       .then(handleErrors)
       .then(data => {
+        console.log(data)
         this.setState({
           realms: data,
         })
